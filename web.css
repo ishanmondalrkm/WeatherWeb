@@ -1,0 +1,147 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: hsla(0, 0%, 96%, 0.872);
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+}
+
+.cityInput{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid #cccccc40;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size:1.2rem;
+    background-color:hsla(0, 0%, 100%, 0.454);
+}
+.cityInput:hover{
+    outline: none;
+    border-color: hsla(92, 60%, 17%, 0.342);
+    box-shadow: 2px 2px 4px hsla(94, 78%, 2%, 0.265);
+    margin-bottom: 15px;
+}
+button[type="submit"]{
+    padding:10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid hsla(93, 45%, 42%, 0.495);
+    border-radius: 15px;
+    background-color: hsla(93, 45%, 49%, 0.45);
+    cursor: pointer;
+    color: white;
+}
+button[type="submit"]:hover{
+    background-color: hsla(93, 45%, 42%, 0.534);
+    margin-bottom: 10px;
+     box-shadow: 2px 2px 2px hsla(94, 78%, 2%, 0.265);
+}
+.card{
+    background:hsla(0, 0%, 100%, 0.363);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 350px;
+   
+}
+h1{
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: white;
+}
+p{
+    font-size: 1.5rem;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color: rgba(3, 0, 0, 0.68);
+}
+.cityNameDis{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: hsla(0, 81%, 4%, 0.703);
+}
+.temperatureDis{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: hsla(204, 100%, 1%, 0.71);
+}
+.descriptionDis{
+    font-size: 1.83rem;
+    font-style: italic;
+    margin-bottom: 10px;
+    color: hsla(0, 0%, 0%, 0.747);
+    font-weight: bold;
+}
+.humidityDis{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: hsla(0, 0%, 0%, 0.616);
+    font-weight: bold;
+}
+.windSpeedDis{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: hsla(0, 0%, 0%, 0.616);
+    font-weight: bold;
+}
+.weatherIconDis{
+    display:flex;
+    align-items: center;
+    width: 10px;
+    height: 25px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+.weatherIconDis:hover{
+    transform: scale(1.5);
+    transition: transform 0.3s ease-in-out; ;
+}
+.pressureDis{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: hsla(0, 0%, 0%, 0.616);
+    font-weight: bold;
+}
+.errorDisplay{
+    color: rgb(176, 4, 4);
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.visibilityDis{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: hsla(0, 0%, 0%, 0.616);
+    font-weight: bold;
+}
+.feelsLikeDis{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: hsla(0, 0%, 0%, 0.616);
+    font-weight: bold;
+}
+.card:hover{
+    transform: scale(1.009);
+    transition: transform 0.3s ease-in-out;
+}
