@@ -52,7 +52,8 @@ button[type="submit"]:hover{
      box-shadow: 2px 2px 2px hsla(94, 78%, 2%, 0.265);
 }
 .card{
-    background:hsla(0, 0%, 100%, 0.363);
+   background: linear-gradient(0deg, hsla(0, 98%, 65%, 0.457), hsla(222, 90%, 57%, 0.845));
+   
     padding: 50px;
     border-radius: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
@@ -60,7 +61,7 @@ button[type="submit"]:hover{
     flex-direction: column;
     align-items: center;
     min-width: 350px;
-   
+    
 }
 h1{
     font-size: 3rem;
