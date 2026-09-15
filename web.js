@@ -36,10 +36,9 @@ async function getWeather(city) {
 function displayWeatherInfo(data) {
   
     const{name:city,
-          main:{temp,humidity},
+          main:{temp,humidity,pressure},
           weather:[{description,id}],
           wind:{speed:windSpeed},
-          main:{pressure},
           visibility
            }=data;
 
