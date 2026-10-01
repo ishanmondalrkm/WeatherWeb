@@ -46,5 +46,4 @@ You need a web browser (like Chrome or Firefox) and a code editor (like VS Code)
 3. View the updated temperature, humidity, and conditions on the screen.
 
 ## Author
-
-* **Your Name** - [Your GitHub Profile](https://github.com)
+ https://github.ishanmondalrkm
